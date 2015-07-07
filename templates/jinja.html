@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+
+<form action = "">
+	<select name="select">
+	{% for item in timezones %}
+	  <option value="{{item}}">{{item}}</option>
+	{% endfor %}
+	</select>
+    <input type = "submit" value = "Submit">
+</form>
+
+<h1>{{time}}</h1>
+
+</body>
+
+</html>
