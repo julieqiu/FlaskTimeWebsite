@@ -22,6 +22,7 @@ def time():
     return template.render(
         time=time.time(),
         timezones=timezones,
+        selected_timezone=selected_timezone
     )
 
 # return "Hello World"
